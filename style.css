@@ -1,0 +1,337 @@
+/* --- GERAL & FUNDO --- */
+body {
+    font-family: 'EB Garamond', serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f5f5dc;
+}
+
+/* --- LAYOUT DE JORNAL --- */
+.newspaper-container {
+    background-color: rgba(245, 245, 220, 0.92);
+    padding: 2rem;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.newspaper-header {
+    border-bottom: 4px double #333;
+}
+
+.sub-header {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    color: #555;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.game-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #000;
+    margin: 0.5rem 0;
+}
+
+.newspaper-main-content {
+    border-top: 1px solid #ccc;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.newspaper-columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+/* --- ARTIGOS (SEÇÕES) --- */
+.newspaper-article, .newspaper-article-full, .newspaper-sidebar {
+    background-color: transparent;
+    padding: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.newspaper-article, .newspaper-article-full {
+    border-right: 1px solid #ddd;
+    padding-right: 2rem;
+}
+
+.newspaper-sidebar {
+    border-left: 1px solid #ddd;
+    padding-left: 2rem;
+}
+
+.newspaper-article-full {
+    grid-column: 1 / -1;
+    border: none;
+    padding: 0;
+}
+
+.article-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+/* --- BOTÕES E ELEMENTOS INTERATIVOS --- */
+.btn-primary {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #5a4f42;
+    color: #f5f5dc;
+    transition: all 0.3s ease;
+    /* ALTERAÇÃO: Adicionado o arredondamento dos cantos */
+    border-radius: 8px; 
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #333;
+}
+
+.btn-primary:hover {
+    background-color: #3b332a;
+    color: #fff;
+}
+
+/* --- DESAFIO 1: DRAG & DROP --- */
+.draggable {
+    cursor: move;
+    border: 1px dashed #5a4f42;
+    background-color: #fdfbf3;
+    padding: 0.75rem;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    font-size: 0.9rem;
+}
+
+.drop-zone {
+    border: 2px dashed #888;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+    padding: 1rem;
+    min-height: 100px;
+}
+.drop-zone h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.drop-zone.hover { background-color: #e3f2e6; }
+.correct-drop { border-color: #4CAF50; background-color: #e8f5e9; }
+.incorrect-drop { border-color: #f44336; background-color: #ffebee; }
+
+
+/* --- BARRA DE PROGRESSO E MODAL --- */
+.progress-bar-container {
+    background-color: #ddd;
+    border: 1px solid #333;
+}
+
+.progress-bar {
+    background-color: #5a4f42;
+    transition: width 0.5s ease-in-out;
+}
+
+#feedback-modal-content {
+    font-family: 'Playfair Display', serif;
+    background-color: #f5f5dc;
+    border: 2px solid #333;
+    color: #333;
+}
+
+/* --- DESAFIO 2: PREENCHER LACUNAS --- */
+.input-blank {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+    border-radius: 0;
+    /* ALTERAÇÃO: Adicionado padding horizontal e vertical */
+    padding: 0.5rem 0.75rem; 
+}
+.input-blank:focus {
+    outline: none;
+    background-color: #fffde7;
+}
+
+/* Classe para esconder elementos */
+.hidden {
+    display: none;
+}
+
+/* --- POP-UP TOAST (SOME SOZINHO) --- */
+#toast-popup {
+    visibility: hidden; 
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px;
+    position: fixed;
+    z-index: 101;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+}
+
+#toast-popup.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* --- MENU PRINCIPAL --- */
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-buttons .btn-primary {
+    width: 80%;
+    max-width: 400px;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* --- SEÇÃO DO JORNAL --- */
+.journal-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 1.5rem;
+}
+
+.headlines-column {
+    border-right: 1px solid #ddd;
+    padding-right: 1.5rem;
+}
+
+.headlines-column h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.headline-item {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #eee;
+}
+
+.headline-item:hover {
+    background-color: #fdfbf3;
+}
+
+.headline-item.active {
+    background-color: #fceecb;
+    font-weight: bold;
+}
+
+/* --- LAYOUT INTERNO DO ARTIGO (IMAGEM + TEXTO) --- */
+.article-content-wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.article-image-container {
+    float: left; 
+    width: 33%;
+    margin-right: 1.5rem; 
+    margin-bottom: 0.5rem;
+}
+
+.article-image-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.article-column img {
+    margin-bottom: 0; 
+}
+
+.article-summary {
+    background-color: #fdfbf3;
+    border-left: 4px solid #c9b79c;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+.article-summary h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.article-summary ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+/* --- FORMATAÇÃO ABNT PARA PARÁGRAFOS DO ARTIGO --- */
+.article-text-container p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 1.25cm;
+    margin-bottom: 1em; 
+}
+
+.article-text-container p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* --- BOTÃO FLUTUANTE DE VOLTAR AO MENU --- */
+#back-to-menu-floating-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 200;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Adiciona uma variação de cor para o pop-up de erro */
+#toast-popup.error {
+    background-color: #c53030; /* Um tom de vermelho para erros */
+}

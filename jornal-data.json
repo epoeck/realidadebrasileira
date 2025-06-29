@@ -1,0 +1,156 @@
+[
+  {
+    "id": "primeiro-reinado",
+    "title": "Do grito à abdicação: o conturbado Primeiro Reinado do Brasil",
+    "image": "images/dp1.png",
+    "content": [
+      "A jornada do Brasil como nação soberana teve um início turbulento. O período conhecido como Primeiro Reinado, que se estendeu de 7 de setembro de 1822 a 7 de abril de 1831, foi uma fase de grandes desafios, marcada pela figura central e controversa de seu primeiro imperador, D. Pedro I. Embora a Independência tenha sido proclamada, a construção de um Estado autônomo e a definição de uma identidade nacional se mostraram processos complexos e repletos de conflitos.",
+      "A consolidação da Independência não foi imediata. Para garantir a unidade territorial, o imperador precisou enfrentar levantes militares em províncias que se mantinham leais a Portugal. No cenário internacional, o reconhecimento por parte da antiga metrópole, Portugal, só veio em 1825, mediado pela Inglaterra e sob um alto custo: o Brasil se comprometeu a pagar uma indenização de dois milhões de libras esterlinas.",
+      "Um dos momentos mais cruciais do período foi a elaboração da primeira Constituição do país. Após dissolver a Assembleia Constituinte, D. Pedro I outorgou a Constituição de 1824. A nova Carta Magna estabelecia uma monarquia hereditária, mas inovava ao criar o Poder Moderador, exercido exclusivamente pelo imperador. Este quarto poder conferia a D. Pedro I a autoridade para intervir nos demais, o que, na prática, mascarava um governo absolutista.",
+      "O caráter centralizador e autoritário gerou forte descontentamento, sendo o estopim para a Confederação do Equador em 1824, uma revolta republicana duramente reprimida. A política externa também foi um foco de tensão com a Guerra da Cisplatina (1825-1828), que resultou na independência do Uruguai e em enormes prejuízos financeiros.",
+      "A crise econômica, o autoritarismo e a repressão alimentaram uma crescente oposição. Episódios como o assassinato do jornalista Líbero Badaró e a Noite das Garrafadas evidenciaram a insatisfação popular. Pressionado, D. Pedro I abdicou do trono em 7 de abril de 1831, em favor de seu filho, D. Pedro II, que tinha apenas cinco anos."
+    ],
+    "summary": [
+      "Período governado por D. Pedro I, de 1822 a 1831.",
+      "Outorga da Constituição de 1824, com a criação do autoritário Poder Moderador.",
+      "Enfrentou crises como a Confederação do Equador e a Guerra da Cisplatina.",
+      "Terminou com a abdicação de D. Pedro I, devido à pressão popular e crises políticas."
+    ]
+  },
+  {
+    "id": "periodo-regencial",
+    "title": "A 'experiência republicana' sob a monarquia: o Período Regencial",
+    "image": "images/pr.png",
+    "content": [
+        "Com a abrupta abdicação de D. Pedro I em 1831, o Brasil se viu em uma situação inédita: um império sem um imperador apto a governar, já que seu herdeiro, o futuro D. Pedro II, tinha apenas cinco anos de idade. Para preencher o vácuo de poder, o país foi governado por regências até 1840, um dos momentos mais turbulentos da história brasileira, marcado por grave crise política e uma onda de revoltas sociais.",
+        "A cena política era um campo de batalha entre Restauradores (queriam a volta de D. Pedro I), Liberais Moderados (elite agrária) e Liberais Exaltados (mais radicais). Em 1834, o Ato Adicional tentou conciliar os interesses, concedendo maior autonomia às províncias e criando a Regência Una.",
+        "Apesar da reforma, o 'vazio de poder' e a miséria serviram de combustível para as Revoltas Regenciais, como a Cabanagem (Pará), a Revolta dos Malês (Bahia), a Sabinada (Bahia), a Balaiada (Maranhão) e a mais longa de todas, a Guerra dos Farrapos (Sul).",
+        "Para conter a instabilidade, foi criada a Guarda Nacional em 1831, controlada pelos grandes proprietários de terras (os 'coronéis'). A instabilidade era tão grande que a elite política viu como única solução antecipar a maioridade do imperador. Assim, em 1840, através do 'Golpe da Maioridade', D. Pedro II foi coroado aos 14 anos."
+    ],
+    "summary": [
+      "Governo de regentes (1831-1840), enquanto D. Pedro II era menor de idade.",
+      "Período de grande instabilidade política e social.",
+      "Ocorreram diversas revoltas, como a Cabanagem, a Balaiada e a Guerra dos Farrapos.",
+      "Terminou com o 'Golpe da Maioridade', que coroou D. Pedro II aos 14 anos."
+    ]
+  },
+  {
+    "id": "segundo-reinado",
+    "title": "A era de D. Pedro II: estabilidade, modernização e o fim do Império",
+    "image": "images/dp2.png",
+    "content": [
+        "Após a turbulência do Período Regencial, o Brasil entrou em sua mais longa fase de estabilidade política sob o comando de D. Pedro II, que governou por 49 anos. Para governar, implementou o 'parlamentarismo às avessas', onde o imperador, usando o Poder Moderador, escolhia o chefe de governo, garantindo a paz política.",
+        "A grande força motriz da economia foi o café, que financiou a modernização do país, como a construção das primeiras ferrovias. O reinado enfrentou seu maior desafio na Guerra do Paraguai (1864-1870). Embora vitorioso, o Brasil aumentou sua dívida externa, mas o conflito fortaleceu o Exército, que passaria a ter um papel decisivo no cenário nacional.",
+        "A questão social mais importante foi a abolição da escravatura, um processo lento com leis como a Eusébio de Queirós (fim do tráfico), a do Ventre Livre e a dos Sexagenários. O fim do Império foi selado por uma tríplice crise que retirou seus pilares de apoio: a elite agrária, a Igreja e os militares.",
+        "A Questão Abolicionista: A Lei Áurea (1888) foi assinada sem indenização aos proprietários de escravos, que retiraram seu apoio à monarquia. A Questão Religiosa: D. Pedro II entrou em conflito com a Igreja ao prender dois bispos, perdendo o apoio ideológico do clero. A Questão Militar: O Exército, fortalecido e influenciado por ideias republicanas e positivistas, sentia-se desprestigiado.",
+        "Sem apoio, o Império ruiu em 15 de novembro de 1889, quando um golpe militar liderado pelo Marechal Deodoro da Fonseca proclamou a República."
+    ],
+    "summary": [
+      "Longo reinado de D. Pedro II (1840-1889), marcado por estabilidade política.",
+      "Auge da economia cafeeira, que financiou a modernização.",
+      "Abolição gradual da escravidão e grande imigração europeia.",
+      "A monarquia perdeu apoio da elite agrária (abolição), da Igreja (questão religiosa) e dos militares (questão militar), culminando na Proclamação da República."
+    ]
+  },
+  {
+    "id": "era-vargas",
+    "title": "A era Vargas: revolução, direitos e ditadura (1930-1945)",
+    "image": "images/vargas.png",
+    "content": [
+        "Com a Revolução de 1930, que pôs fim à República Oligárquica, Getúlio Vargas ascendeu ao poder, onde permaneceria por 15 anos. Sua trajetória foi marcada por uma profunda dualidade: ao mesmo tempo em que promoveu a modernização industrial e concedeu direitos inéditos aos trabalhadores urbanos, também centralizou o poder de forma autoritária. A Era Vargas pode ser dividida em três momentos: o Governo Provisório (1930-1934), o Governo Constitucional (1934-1937) e a ditadura do Estado Novo (1937-1945).",
+        "No Governo Provisório, enfrentou a Revolução Constitucionalista de 1932 em São Paulo. No Período Constitucional, promulgou a Constituição de 1934, que instituiu o voto feminino e leis trabalhistas, mas o período foi marcado pela polarização entre a Ação Integralista Brasileira (fascista) e a Aliança Nacional Libertadora (comunista).",
+        "Em 1937, usando como pretexto uma suposta ameaça comunista (o Plano Cohen), Vargas deu um golpe de estado e instaurou a ditadura do Estado Novo. A propaganda e a repressão foram os pilares do regime, com o Departamento de Imprensa e Propaganda (DIP) controlando a cultura e a polícia política perseguindo opositores.",
+        "No campo social, consolidou as leis na CLT e, no econômico, criou estatais como a CSN e a Vale do Rio Doce. A queda de Vargas foi selada pela contradição de seu governo, de inspiração fascista, lutar ao lado dos Aliados na Segunda Guerra Mundial. Pressionado, foi deposto em 1945."
+    ],
+    "summary": [
+      "Governou o Brasil por 15 anos (1930-1945) em três fases: Provisório, Constitucional e Estado Novo.",
+      "Criou leis trabalhistas importantes, como a CLT, e investiu na indústria de base.",
+      "Instaurou a ditadura do Estado Novo (1937-1945), com forte propaganda (DIP) e repressão.",
+      "Deposto em 1945 após a contradição de lutar contra o fascismo na Segunda Guerra Mundial."
+    ]
+  },
+  {
+    "id": "janio-quadros",
+    "title": "O cometa Jânio: sete meses de vassoura e uma renúncia que abalou o Brasil",
+    "image": "images/jq.png",
+    "content": [
+        "Eleito com uma votação esmagadora e o slogan de 'varrer a corrupção', Jânio Quadros governou o Brasil por apenas sete meses em 1961. Sua passagem pela presidência foi um turbilhão de medidas moralistas, uma política externa chocante e uma jogada política final que deu errado.",
+        "Com um estilo excêntrico, eleito com apoio da UDN, seu símbolo de campanha era uma vassoura. Ao assumir, tomou medidas impopulares como cortar gastos e subsídios, e outras bizarras, como proibir biquínis.",
+        "A maior fonte de atrito veio de sua 'política externa independente'. Em plena Guerra Fria, reatou relações com a União Soviética e condecorou o revolucionário 'Che' Guevara com a Ordem do Cruzeiro do Sul, a mais alta honraria do país, chocando seus apoiadores conservadores.",
+        "Isolado e perdendo popularidade, Jânio arquitetou um 'golpe branco': ele renunciaria, apostando que os militares, apavorados com a posse de seu vice de esquerda, João Goulart, o aclamariam de volta com plenos poderes. O cálculo foi um erro crasso. Em 25 de agosto de 1961, sua carta de renúncia foi lida e, para sua surpresa, o Congresso Nacional simplesmente a aceitou. Jânio se apagou da política, mergulhando o país numa crise institucional que culminaria no golpe militar de 1964."
+    ],
+    "summary": [
+      "Eleito em 1960 com o símbolo da 'vassoura' contra a corrupção.",
+      "Governou por apenas 7 meses em 1961.",
+      "Adotou uma 'política externa independente', condecorando 'Che' Guevara, o que chocou seus apoiadores.",
+      "Renunciou em uma jogada política que deu errado, esperando voltar com mais poderes, mas o Congresso aceitou sua saída."
+    ]
+  },
+  {
+    "id": "ditadura-militar",
+    "title": "Os anos de chumbo: o Brasil sob a ditadura militar (1964-1985)",
+    "image": "images/ditadura.png",
+    "content": [
+        "Iniciado com um golpe em 31 de março de 1964, o regime militar governou o Brasil por 21 anos. Com a justificativa de livrar o país da 'corrupção e do comunismo', os militares instituíram um regime autoritário baseado na Doutrina de Segurança Nacional. O aparato repressivo foi construído por meio de Atos Institucionais (AI).",
+        "O regime atingiu seu ponto mais duro sob os generais da 'Linha Dura', nos 'Anos de Chumbo'. O estopim foi o Ato Institucional nº 5 (AI-5), de 1968, que deu ao presidente poderes para fechar o Congresso e suspender direitos, institucionalizando a censura e a tortura, praticadas por órgãos como o DOI-CODI. Em resposta, surgiram movimentos de guerrilha armada de esquerda, que foram violentamente esmagados.",
+        "Paradoxalmente, foi durante o auge da repressão que a economia viveu o 'Milagre Econômico' (1968-1973), com o PIB crescendo a taxas anuais superiores a 11%, impulsionado por grandes obras financiadas por empréstimos estrangeiros e propaganda ufanista. No entanto, o crescimento concentrou a renda de forma brutal.",
+        "A crise do petróleo de 1973 pôs fim ao 'milagre', e o regime começou a se desgastar. O General Ernesto Geisel iniciou uma abertura política 'lenta, gradual e segura', que continuou sob o General João Baptista Figueiredo. A transição foi marcada pela Lei da Anistia (1979) e pela crescente mobilização da sociedade civil, que culminou na campanha das 'Diretas Já'. Embora a campanha não tenha atingido seu objetivo imediato, selou o fim do regime, que se retirou do poder após a eleição indireta de Tancredo Neves em 1985."
+    ],
+    "summary": [
+      "Regime autoritário que durou 21 anos (1964-1985).",
+      "Marcado por forte repressão, censura e tortura, especialmente após o AI-5 de 1968.",
+      "Período do 'Milagre Econômico', com grande crescimento do PIB e concentração de renda.",
+      "Terminou com uma abertura 'lenta, gradual e segura', impulsionada pela crise econômica e pela pressão popular ('Diretas Já')."
+    ]
+  },
+  {
+    "id": "redemocratizacao-fhc",
+    "title": "A travessia para estabilidade: de Sarney ao Plano Real de FHC",
+    "image": "images/fhc.png",
+    "content": [
+        "A Nova República brasileira nasceu de uma tragédia: Tancredo Neves, primeiro presidente civil eleito após a ditadura, faleceu antes da posse. Seu vice, José Sarney, assumiu a missão de guiar o país na redemocratização, mas enfrentou uma hiperinflação devastadora. Seu maior legado foi a Constituição Cidadã de 1988, mas seus planos econômicos (Cruzado, Bresser, Verão) falharam.",
+        "Em 1989, na primeira eleição direta em décadas, Fernando Collor de Mello foi eleito. Seu governo foi curto, interrompido por um gigantesco escândalo de corrupção que levou ao movimento dos 'caras-pintadas' e ao seu impeachment em 1992.",
+        "Foi seu vice, Itamar Franco, quem encontrou o caminho para a estabilidade. Sob o comando de seu Ministro da Fazenda, Fernando Henrique Cardoso (FHC), foi lançado o Plano Real em 1994, que finalmente controlou a hiperinflação. O sucesso do plano catapultou FHC à presidência, onde ficou por dois mandatos (1995-2002).",
+        "Seu governo consolidou a estabilidade, promoveu privatizações de estatais e criou agências reguladoras. Embora tenha enfrentado crises econômicas internacionais, seu período é lembrado por ter tirado o Brasil da espiral inflacionária, preparando o terreno para a fase seguinte da história do país."
+    ],
+    "summary": [
+      "Início da Nova República marcado pela morte de Tancredo Neves e o governo Sarney com hiperinflação.",
+      "Governo Collor terminou em impeachment por corrupção em 1992.",
+      "O Plano Real, criado no governo Itamar Franco pelo ministro FHC, estabilizou a economia.",
+      "FHC foi eleito presidente (1995-2002), consolidou a estabilidade e promoveu privatizações."
+    ]
+  },
+  {
+    "id": "governo-lula",
+    "title": "A ascensão social e o palco mundial: os anos do governo Lula",
+    "image": "images/lula.png",
+    "content": [
+        "Em 2002, o ex-metalúrgico Luiz Inácio Lula da Silva foi eleito presidente, representando uma virada à esquerda na política brasileira. Seu governo, que durou dois mandatos (2003-2010), foi marcado pela manutenção da estabilidade macroeconômica herdada do governo anterior, mas com uma forte ênfase em políticas sociais. Programas como o Bolsa-Família, uma unificação e expansão de auxílios anteriores, e o Prouni, que facilitou o acesso de jovens de baixa renda ao ensino superior, tiveram um impacto significativo na redução da pobreza e da desigualdade.",
+        "O Brasil viveu um período de crescimento econômico robusto, impulsionado pelo boom das commodities no mercado internacional. Essa prosperidade permitiu que o país quitasse sua dívida com o FMI e acumulasse reservas internacionais. O sucesso econômico e social projetou o Brasil no cenário mundial, consolidando sua posição como uma das principais economias emergentes, parte do grupo conhecido como BRICS (Brasil, Rússia, Índia, China e África do Sul).",
+        "A imagem de sucesso, no entanto, foi profundamente abalada pelo escândalo do Mensalão, em 2005, que revelou um complexo esquema de compra de apoio político no Congresso Nacional. Apesar da crise, a alta popularidade de Lula, especialmente entre as classes mais baixas, garantiu sua reeleição em 2006 e permitiu que ele fizesse sua sucessora, Dilma Rousseff, ao final de seu segundo mandato."
+    ],
+    "summary": [
+      "Governou por dois mandatos (2003-2010), mantendo a estabilidade econômica.",
+      "Expandiu programas sociais como o Bolsa-Família, com forte impacto na redução da pobreza.",
+      "Período de crescimento econômico e projeção internacional do Brasil (BRICS).",
+      "Enfrentou o escândalo de corrupção do Mensalão, que abalou seu governo mas não impediu sua reeleição."
+    ]
+  },
+  {
+    "id": "governos-dilma-temer",
+    "title": "Crise, impeachment e polarização: a derrocada de um ciclo político",
+    "image": "images/dilma.png",
+    "content": [
+        "Sucessora de Lula, Dilma Rousseff foi eleita em 2010 e deu continuidade aos programas sociais, mas seu governo mergulhou o Brasil na maior crise econômica de sua história recente. A queda do PIB por dois anos consecutivos, a alta da inflação e o desemprego crescente, somados aos desdobramentos da Operação Lava Jato — que revelou um esquema de corrupção sistêmico envolvendo a Petrobras e grandes empreiteiras — criaram um clima de insatisfação generalizada.",
+        "Grandes manifestações populares tomaram o país em 2013 e se intensificaram nos anos seguintes. Reeleita em 2014 em uma disputa acirrada, Dilma viu sua base política se desintegrar, culminando em seu processo de impeachment em 2016, com base nas chamadas 'pedaladas fiscais'. A saída de Dilma dividiu profundamente o país.",
+        "Seu vice, Michel Temer, assumiu com uma agenda de reformas liberais e impopulares, como o teto de gastos públicos e a reforma trabalhista. Em meio a novos e graves escândalos de corrupção que o atingiram diretamente, Temer conseguiu controlar a inflação, mas terminou seu mandato com a maior rejeição da história, aprofundando a crise de representatividade.",
+        "Este cenário de convulsão social, crise econômica e descrédito na classe política abriu caminho para a eleição de uma figura de extrema-direita, Jair Bolsonaro, em 2018, inaugurando uma nova fase de intensa polarização na sociedade brasileira."
+    ],
+    "summary": [
+      "Governo Dilma (2011-2016) foi marcado pela maior crise econômica da história recente e pela Operação Lava Jato.",
+      "Enfrentou grandes manifestações e sofreu impeachment em 2016.",
+      "Michel Temer (2016-2018) assumiu com uma agenda de reformas impopulares e alta rejeição.",
+      "A crise econômica e política levou a uma polarização extrema e à eleição de Jair Bolsonaro em 2018."
+    ]
+  }
+]

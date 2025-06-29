@@ -1,0 +1,136 @@
+{
+  "tutorialData": [
+    { 
+      "title": "Primeiro Reinado (1822-1831)", 
+      "content": "Após a Independência, D. Pedro I se torna o primeiro imperador. Seu governo foi marcado pela outorga da Constituição de 1824, que criou o autoritário Poder Moderador, um poder pessoal do imperador acima dos outros três. O período enfrentou crises como a Confederação do Equador, uma revolta republicana no Nordeste, e a Guerra da Cisplatina, que resultou na independência do Uruguai e em altos custos para o Brasil. A crescente impopularidade e as crises levaram à sua abdicação em 1831."
+    },
+    { 
+      "title": "Período Regencial (1831-1840)", 
+      "content": "Com D. Pedro II ainda criança, o Brasil foi governado por regentes. Foi um dos períodos mais instáveis da nossa história, com intensas disputas políticas entre grupos como os Restauradores, os Moderados e os Exaltados. O Ato Adicional de 1834 deu mais autonomia às províncias, mas não conteve a agitação. A miséria e o vácuo de poder levaram a uma série de revoltas sangrentas, como a Cabanagem (PA), a Guerra dos Farrapos (RS) e a Revolta dos Malês (BA). A instabilidade só terminou com o 'Golpe da Maioridade', que coroou D. Pedro II imperador aos 14 anos."
+    },
+    { 
+      "title": "Segundo Reinado (1840-1889)", 
+      "content": "O longo reinado de D. Pedro II trouxe estabilidade através do 'parlamentarismo às avessas', onde o imperador controlava o governo. A economia foi impulsionada pelo café, que financiou a modernização e a construção de ferrovias. O período viu o fim gradual da escravidão, com a Lei Eusébio de Queirós (que proibiu o tráfico negreiro), a Lei do Ventre Livre e, finalmente, a Lei Áurea em 1888. O fim do Império foi causado por uma tríplice crise: a perda do apoio dos fazendeiros após a abolição sem indenização; o conflito com a Igreja na 'Questão Religiosa'; e o descontentamento do Exército, que se fortaleceu na Guerra do Paraguai e aderiu às ideias republicanas."
+    },
+    { 
+      "title": "República Oligárquica (1894-1930)", 
+      "content": "Também conhecida como 'República do Café com Leite', foi dominada pelas oligarquias de São Paulo e Minas Gerais. O poder era mantido pela 'Política dos Governadores', um acordo de troca de favores entre o presidente e os governos estaduais. Na base desse sistema estava o 'coronelismo', onde grandes proprietários de terra controlavam o 'voto de cabresto' (voto aberto e forçado) em seus 'currais eleitorais'. Esse período de opressão gerou grandes revoltas sociais, como a Guerra de Canudos (BA), a Revolta da Vacina (RJ) e a Revolta da Chibata (RJ)."
+    },
+    { 
+      "title": "Era Vargas (1930-1945)", 
+      "content": "Getúlio Vargas assumiu o poder com a Revolução de 1930 e governou por 15 anos. Seu governo é dividido em três fases: Provisório, Constitucional e Estado Novo. Ele modernizou a indústria, investiu em estatais (CSN, Vale do Rio Doce) e criou a Consolidação das Leis do Trabalho (CLT), garantindo direitos aos trabalhadores urbanos. No entanto, também governou de forma autoritária, especialmente durante a ditadura do Estado Novo (1937-1945), quando usou o Departamento de Imprensa e Propaganda (DIP) para fazer propaganda e censurar a oposição. Foi deposto em 1945."
+    },
+    { 
+      "title": "República Populista (1946-1964)", 
+      "content": "Período democrático com a Constituição de 1946, que garantiu liberdades e o voto feminino. Foi marcado por líderes carismáticos. Dutra (1946-51) alinhou-se aos EUA e criou o Plano SALTE. Vargas voltou eleito (1951-54), criou a Petrobras sob o lema 'O petróleo é nosso!', mas cometeu suicídio em meio a uma grave crise política. Juscelino Kubitschek (1956-61) promoveu o desenvolvimentismo com seu 'Plano de Metas' ('50 anos em 5') e construiu Brasília. A instabilidade retornou com a renúncia de Jânio Quadros em 1961 e as tensões no governo de João Goulart, deposto pelo golpe militar de 1964."
+    },
+    { 
+      "title": "Ditadura Militar (1964-1985)", 
+      "content": "Durante 21 anos, o Brasil foi governado por generais. O regime foi marcado por forte repressão e pela suspensão de direitos através dos Atos Institucionais. O mais duro foi o AI-5, de 1968, que institucionalizou a censura e a tortura. O período do 'Milagre Econômico' (1968-73) viu um grande crescimento do PIB, mas com enorme concentração de renda e aumento da dívida externa. A crise do petróleo em 1973 iniciou o declínio econômico do regime. A partir do governo Geisel, iniciou-se uma abertura política 'lenta, gradual e segura', que culminou na transição para a democracia."
+    },
+    { 
+      "title": "Redemocratização e Nova República", 
+      "content": "A sociedade civil se mobilizou na campanha das 'Diretas Já' (1983-84) pelo direito de votar para presidente. Apesar da derrota da emenda, a campanha selou o fim da ditadura. A transição foi concluída com a eleição indireta de Tancredo Neves. Com a sua morte, José Sarney assumiu e promulgou a 'Constituição Cidadã' de 1988, que ampliou os direitos e garantias fundamentais. O período seguinte foi de luta contra a hiperinflação, vencida apenas com o Plano Real em 1994, durante o governo de Itamar Franco."
+    }
+  ],
+  "challenge1Data": {
+    "title": "Missão 1: Organizando a Linha do Tempo",
+    "instruction": "A anomalia misturou os períodos! Arraste cada característica para o período histórico correto.",
+    "draggables": [
+      { "id": "c1_1", "text": "Poder Moderador" },
+      { "id": "c1_2", "text": "Política do Café-com-Leite" },
+      { "id": "c1_3", "text": "Construção de Brasília" },
+      { "id": "c1_4", "text": "Lei Áurea" }
+    ],
+    "dropZones": [
+      { "id": "dz1_1", "title": "Primeiro Reinado", "accepts": ["c1_1"] },
+      { "id": "dz1_2", "title": "República Oligárquica", "accepts": ["c1_2"] },
+      { "id": "dz1_3", "title": "Governo JK", "accepts": ["c1_3"] },
+      { "id": "dz1_4", "title": "Segundo Reinado", "accepts": ["c1_4"] }
+    ]
+  },
+  "challenge2Data": {
+    "title": "Missão 2: Completando os Eventos",
+    "instruction": "Lacunas se abriram na história! Preencha os espaços para restaurar os fatos.",
+    "questions": [
+        { "sentence": "O líder do arraial de Canudos, um movimento de forte caráter messiânico, era o beato __________.", "answer": "antônio conselheiro", "explanation": "Antônio Conselheiro foi o líder messiânico do Arraial de Canudos, um movimento de resistência contra a opressão dos grandes proprietários rurais no sertão da Bahia." },
+        { "sentence": "A política econômica do governo JK, que prometia '50 anos em 5', ficou conhecida como __________.", "answer": "plano de metas", "explanation": "O Plano de Metas foi a política desenvolvimentista de Juscelino Kubitschek que visava acelerar o crescimento em áreas estratégicas como energia e transporte." },
+        { "sentence": "A revolta de 1910 contra os castigos físicos na Marinha foi liderada por João Cândido e ficou conhecida como Revolta da __________.", "answer": "chibata", "explanation": "A Revolta da Chibata foi um motim de marinheiros contra os castigos físicos (chibatadas) que eram aplicados na Marinha no início do século XX." },
+        { "sentence": "Durante a Era Vargas, o departamento responsável pela propaganda e censura era o __________.", "answer": "dip", "explanation": "O Departamento de Imprensa e Propaganda (DIP), criado em 1939, tinha a função de censurar os meios de comunicação e promover a imagem de Getúlio Vargas e do Estado Novo." }
+    ]
+  },
+  "challenge3Data": {
+    "title": "Missão 3: Modelos de Desenvolvimento",
+    "instruction": "Vargas e JK tinham visões diferentes para a economia. Associe cada política ao seu respectivo governo.",
+    "draggables": [
+      { "id": "c3_1", "text": "Intervenção estatal e controle de indústrias de base" },
+      { "id": "c3_2", "text": "Limitação da remessa de lucros de empresas estrangeiras" },
+      { "id": "c3_3", "text": "Associação com capital estrangeiro para industrialização acelerada" },
+      { "id": "c3_4", "text": "Isenção de impostos para atrair multinacionais" }
+    ],
+    "dropZones": [
+      { "id": "dz3_1", "title": "Nacionalismo de Vargas", "accepts": ["c3_1", "c3_2"] },
+      { "id": "dz3_2", "title": "Desenvolvimentismo de JK", "accepts": ["c3_3", "c3_4"] }
+    ]
+  },
+  "challenge4Data": {
+    "title": "Missão 4: Fatos Marcantes da República",
+    "instruction": "Complete as frases para registrar corretamente estes momentos cruciais.",
+    "questions": [
+      { "sentence": "A Constituição de 1891 permitiu aos estados decretar impostos sobre a __________ de suas mercadorias.", "answer": "exportação", "explanation": "A Constituição de 1891 deu grande autonomia aos estados, incluindo o poder de taxar as mercadorias que exportavam, fortalecendo as oligarquias locais." },
+      { "sentence": "A migração de mão-de-obra para o Norte do Brasil na segunda metade do século XIX estava ligada às atividades __________ da borracha.", "answer": "extrativistas", "explanation": "O Ciclo da Borracha atraiu milhares de migrantes, principalmente nordestinos, para o trabalho extrativista nos seringais da Amazônia." },
+      { "sentence": "O rápido desenvolvimento no governo JK, financiado por capital estrangeiro e gastos públicos, gerou uma aceleração da __________.", "answer": "inflação", "explanation": "Apesar do crescimento econômico, o Plano de Metas de JK resultou em um significativo aumento da inflação e da dívida externa." },
+      { "sentence": "Durante o governo JK, foi mantido na ilegalidade o Partido __________.", "answer": "comunista", "explanation": "No contexto da Guerra Fria, e seguindo a política iniciada no governo Dutra, o Partido Comunista Brasileiro (PCB) permaneceu ilegal durante todo o governo JK." }
+    ]
+  },
+    "challenge5Data": {
+    "title": "Missão 5: Marcos da Ditadura Militar",
+    "instruction": "O Regime Militar foi um período de grandes projetos e intensa repressão. Organize os eventos.",
+    "draggables": [
+      { "id": "c5_1", "text": "Decretou o AI-5, o mais duro ato do regime" },
+      { "id": "c5_2", "text": "Iniciou a abertura política 'lenta, gradual e segura'" },
+      { "id": "c5_3", "text": "Período do 'Milagre Econômico' e dos 'Anos de Chumbo'" },
+      { "id": "c5_4", "text": "Instituiu o bipartidarismo (ARENA e MDB)" }
+    ],
+    "dropZones": [
+      { "id": "dz5_1", "title": "Governo Castello Branco (1964-67)", "accepts": ["c5_4"] },
+      { "id": "dz5_2", "title": "Governo Costa e Silva (1967-69)", "accepts": ["c5_1"] },
+      { "id": "dz5_3", "title": "Governo Médici (1969-74)", "accepts": ["c5_3"] },
+      { "id": "dz5_4", "title": "Governo Geisel (1974-79)", "accepts": ["c5_2"] }
+    ]
+  },
+  "challenge6Data": {
+    "title": "Missão 6: Crises, Transições e Leis",
+    "instruction": "Preencha as lacunas sobre momentos de ruptura e mudança na história brasileira.",
+    "questions": [
+      { "sentence": "A independência econômica do Brasil, antes da política, pode ser associada à __________ dos portos em 1808.", "answer": "abertura", "explanation": "Ao permitir que a colônia comercializasse com outras nações além de Portugal, a Abertura dos Portos em 1808 rompeu o pacto colonial, sendo um passo fundamental para a independência." },
+      { "sentence": "O assassinato de __________ foi o estopim político que acelerou os preparativos para a Revolução de 1930.", "answer": "joão pessoa", "explanation": "Embora o assassinato de João Pessoa, candidato a vice na chapa de Vargas, tenha tido motivações locais, foi usado politicamente pela Aliança Liberal para inflamar a população e justificar o levante armado." },
+      { "sentence": "A legitimidade do regime militar, que promovia grandes obras, dependia da manutenção do __________ econômico.", "answer": "crescimento", "explanation": "O 'Milagre Econômico' foi usado como propaganda para legitimar o regime autoritário. A crise do petróleo de 1973 abalou esse pilar, influenciando a decisão pela abertura política." },
+      { "sentence": "O AI-5, baixado em 1968, estabeleceu na prática a __________ aos meios de comunicação e institucionalizou a repressão.", "answer": "censura", "explanation": "O Ato Institucional nº 5 é notório por ter intensificado a repressão, permitindo a censura prévia de jornais, músicas e outras formas de expressão, além de suspender direitos fundamentais." }
+    ]
+  },
+  "challenge7Data": {
+    "title": "Missão 7: Cidadania nas Constituições",
+    "instruction": "As Constituições refletem o seu tempo. Associe cada característica à Carta Magna correspondente.",
+    "draggables": [
+      { "id": "c7_1", "text": "Proibiu o voto de analfabetos e mulheres." },
+      { "id": "c7_2", "text": "Concedeu o voto feminino e criou a Justiça do Trabalho." },
+      { "id": "c7_3", "text": "Chamada de 'Constituição Cidadã', tornou o racismo crime inafiançável." }
+    ],
+    "dropZones": [
+      { "id": "dz7_1", "title": "Constituição de 1891", "accepts": ["c7_1"] },
+      { "id": "dz7_2", "title": "Constituição de 1934", "accepts": ["c7_2"] },
+      { "id": "dz7_3", "title": "Constituição de 1988", "accepts": ["c7_3"] }
+    ]
+  },
+  "challenge8Data": {
+    "title": "Missão 8: A Redemocratização",
+    "instruction": "O fim do Regime Militar foi um processo complexo. Complete os fatos.",
+    "questions": [
+      { "sentence": "A campanha popular pela volta das eleições presidenciais diretas ficou conhecida como __________.", "answer": "diretas já", "explanation": "O movimento 'Diretas Já' (1983-1984) foi uma das maiores mobilizações populares da história do Brasil, pedindo a aprovação da Emenda Dante de Oliveira." },
+      { "sentence": "Com a derrota da emenda das diretas, a sucessão de Figueiredo ocorreu de forma indireta pelo __________.", "answer": "colégio eleitoral", "explanation": "Após a rejeição da emenda, a eleição de 1985 foi indireta, com um Colégio Eleitoral (formado por membros do Congresso) escolhendo Tancredo Neves." },
+      { "sentence": "A Lei da __________ permitiu o retorno dos exilados políticos, mas também perdoou os crimes cometidos por agentes da ditadura.", "answer": "anistia", "explanation": "A Lei de Anistia, de 1979, foi uma lei de 'mão dupla': enquanto permitia que opositores do regime voltassem ao país, também impedia que os agentes estatais fossem julgados por tortura e outros crimes." },
+      { "sentence": "O plano econômico que finalmente estabilizou a economia e controlou a hiperinflação no início da Nova República foi o __________.", "answer": "plano real", "explanation": "Lançado em 1994, durante o governo de Itamar Franco, o Plano Real teve sucesso em controlar a hiperinflação e se tornou a base da estabilidade econômica nos anos seguintes." }
+    ]
+  }
+}

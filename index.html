@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio dos Fundadores: Uma Aventura pela História do Brasil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-4 md:p-8">
+
+    <button id="back-to-menu-floating-btn" class="btn-primary hidden">&larr; Voltar ao Menu</button>
+
+    <div id="toast-popup" class=""></div>
+
+    <div id="feedback-modal" class="hidden justify-center items-center">
+        <div id="feedback-modal-content" class="p-8 rounded-lg text-center shadow-2xl">
+            <p id="feedback-text"></p>
+            <button id="feedback-ok-btn" class="btn-primary mt-4 px-6 py-2 rounded-lg">OK</button>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto newspaper-container">
+        <header class="newspaper-header text-center mb-8 pb-4">
+            <div class="sub-header">Edição Histórica &mdash; Publicado no Brasil</div>
+            <h1 class="game-title text-5xl md:text-7xl">Diário do Tempo</h1>
+            <div class="sub-header">A Verdade dos Fatos Históricos &mdash; Desafio dos Fundadores</div>
+        </header>
+
+        <main id="game-container" class="newspaper-main-content">
+            <section id="main-menu" class="newspaper-article-full text-center">
+                <h2 class="article-title">Bem-vindo, Guardião do Tempo!</h2>
+                <p class="mb-8">A história do Brasil está em suas mãos. Escolha como deseja prosseguir:</p>
+                <div class="menu-buttons">
+                    <button id="show-journal-btn" class="btn-primary">Ler o Jornal</button>
+                    <button id="show-tutorial-btn" class="btn-primary">Iniciar Tutorial</button>
+                    <button id="start-challenges-btn" class="btn-primary">Ir para os Desafios</button>
+                </div>
+            </section>
+
+            <section id="journal" class="hidden">
+                <div class="journal-layout">
+                    <div id="headlines-list" class="headlines-column"></div>
+                    <div id="article-display" class="article-column">
+                        <p class="text-center italic">Selecione uma matéria ao lado para ler.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tutorial" class="hidden newspaper-article-full">
+                <h2 class="article-title text-center">Tutorial do Tempo: Conceitos-Chave</h2>
+                <div id="tutorial-content" class="space-y-4"></div>
+                 <div class="text-center mt-6">
+                    <button id="prev-tutorial-btn" class="btn-primary">Anterior</button>
+                    <button id="next-tutorial-btn" class="btn-primary">Próximo</button>
+                    <button id="start-game-btn" class="btn-primary hidden">Começar os Desafios!</button>
+                </div>
+            </section>
+
+            <section id="gameplay" class="hidden">
+                <div class="mb-8 newspaper-article-full">
+                    <h3 class="text-xl font-bold text-center mb-2">Progresso da Missão</h3>
+                    <div class="progress-bar-container w-full h-4 rounded-full overflow-hidden">
+                        <div id="progress-bar" class="progress-bar h-full rounded-full" style="width: 0%;"></div>
+                    </div>
+                </div>
+                <div id="challenges-container"></div>
+                <div id="navigation-buttons" class="text-center mt-8 hidden">
+                    <button id="next-challenge-btn" class="btn-primary">Próximo Desafio</button>
+                </div>
+            </section>
+            
+            <section id="completion-screen" class="hidden text-center newspaper-article-full mt-8">
+                <h2 class="article-title">Missão Cumprida, Guardião!</h2>
+                <p class="text-xl mb-4">Você restaurou a linha do tempo e salvou a história do Brasil!</p>
+                <p class="mb-2 font-bold">Pontuação Final: <span id="final-score">0</span></p>
+                <p class="mb-6 font-bold">Nível de Conhecimento: <span id="knowledge-level">Iniciante</span></p>
+                <button id="restart-game-btn" class="btn-primary">Jogar Novamente</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
